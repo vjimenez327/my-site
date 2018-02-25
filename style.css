@@ -22,6 +22,46 @@ form div {
 }
 
 canvas {
+  background: #000000;
   border: 1px solid black;
 }
+
+h1 {
+  color: rgb(164, 242, 246);  
+}
+
+nav {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background: #1B242F;
+  border-bottom: 3px solid #04C2C9;
+  text-align: left;
+  z-index: 99;
+}
+
+#wrapper {
+  position: absolute;
+  left: 0;
+  width: 320px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -160px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
