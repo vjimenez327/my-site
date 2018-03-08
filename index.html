@@ -2,18 +2,194 @@
 <html>
   <head>
     <meta charset='utf-8'>
+    <meta http-equiv="refresh" content="7" >
     <meta name='viewport' content='width=device-width initial-scale=1.0'>
     <title>Vanessa Jimenez</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.js"></script>
     <link rel="stylesheet" href="./style.css" />
-    <style type="text/css">
-      
-      
-    </style>
-    <script defer src="canvas.js"></script>
+    
+    <script  src="canvas.js" defer></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
-    <canvas></canvas>
+<!-- Main Page -->
+    <section id="home">
+      <canvas></canvas>
+      <div id="wrapper">
+        <div class="text">
+          Hi, I'm <span>Vanessa Jiménez</span>!
+        </div>
+        <div class="text">
+          I'm a full-stack web developer.
+        </div>
+      </div>
+
+   
+
+      <div>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link item" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link item" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link item" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link item" href="#portfolio">Rèsumè</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link item" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+ 
+    <!-- About Me Section -->
+    <section id="about">
+      <div class ="header">ABOUT</div>
+      <div class="header-bar"></div>
+
+      <img class="circle" src="img/FSA.JPG">
+
+      <div class = "paragraph">
+        <div class = "blurp">
+          After an intensive 3 month journey of learning to build Javascript applications, I am comfortable throughout the stack and love being able to implement new features. I love learning foreign languages and the opportunity to build new friendships with the ability to speak a new language. Software Development does exactly that for me. It's the opportunity to code in a language and build new things either on my own or with a team. I constantly want to learn more and further grow as a developer. It's a different world with its own language that I love to bond over with people. 
+        </div>
+      
+        <div class = "blurp">
+          Outside of code, since I'm new to NYC I like to go out and explore around the city. Whether, it's finding a new restuarant, stumbling across live street music, going to an unexpected event, or just wandering through parks. I love to find new music and create playlists for different moods. 
+        </div>
+        <div class = "blurp">
+         I am actively seeking a new full-time opportunity as I continue upon the next journey in my life. Before becoming a software developer, I worked for Deloitte as a Tech Risk Consultant serving the global software vendors. I also hold a degree in finance from Santa Clara University with a minor in Operations Management & Information Systems.          
+        </div>
+      </div>
+    </section>
+
+    <!-- List of Projects -->
+    <section id="portfolio">
+      <div class ="header">PORTFOLIO</div>
+      <div class="header-bar"></div>
+
+      <!-- <div class="container">
+        <div class ="row align-items-center">
+          <div class="col">
+            <a href="https://expo.io/@hokevins/breadcrumbs"><img class="projects" src= "img/breadcrumbs.png"></a>
+            <div class="overlay">
+              <div class="description">Breadcrumbs</div>
+            </div>
+          </div>
+          <div class="col">
+            <img class="projects" src= "img/bwa.png">
+            <div class="overlay">
+              <a href="http://better-with-age.herokuapp.com/">
+                <div class="description">Better With Age</div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <img class="projects" src="img/lemon.png">
+            <div class="overlay">
+              <div class="description">Lemon</div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="band">
+          <div class="item-1">
+            <a href="https://expo.io/@hokevins/breadcrumbs" class="card">
+              <div class="thumb" style="background-image: url(img/breadcrumbs.png);"></div>
+              <!-- <article class="before">
+                <h1>Breadcrumbs</h1>
+                <span>Shannen, Jesse, Kevin, Me</span>
+              </article> -->
+              <div class="after">
+                <div class="bold">Breadcrumbs</div>
+                <div class="tech">Expo-Three.js + React Native</div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="item-2">
+            <a href="http://better-with-age.herokuapp.com/" class="card">
+              <div class="thumb" style="background-image: url(img/bwa.png);"></div>
+              <!-- <article class="before">
+                <h1>Better With Age</h1>
+                <span>Abel, Eetai, Robin, Me</span>
+              </article> -->
+            </a>
+            <div class="info">
+                Better With Age
+              <div class="bold">Better With Age</div>
+              <div class="tech">React + React-Redux</div>
+            </div>
+          </div>
+
+          <div class="item-3">
+            <a href="https://expo.io/@hokevins/breadcrumbs" class="card">
+              <div class="thumb" style="background-image: url(img/lemon.png);"></div>
+              <!-- <article class ="before">
+                <h1>Lemon</h1>
+                <span>Me</span>
+              </article> -->
+              <div class="after">
+                <div class="bold">Lemon</div>
+                <div class="tech">Chrome Extension API + Pure Javascript</div>
+              </div>
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <section id="contact">
+      <div class ="header">CONTACT</div>
+      <div class="header-bar"></div>
+
+      <div class="hello">
+        Have a question or want to say hello?
+      </div>
+
+      <div class="ui form">
+        <div class="form">
+          <input type="text" class="form-Name" placeholder="Name" required>
+          <input type="text" class="form-Email" placeholder="Enter Email" required> 
+          <textarea type="text" class="form-Message" placeholder="Your Message" required></textarea>
+        </div>
+        <input type="submit" class="submit" value="Send Message">
+      </div>
+    </section>
+
+    <footer>
+      <div class="icon-wrap">
+        <a class = "media" href="https://www.linkedin.com/in/vanessajimenez27/">
+          <i class=" big bordered inverted black linkedin in icon"></i>
+        </a>
+        <a class = "media" href="https://github.com/vjimenez327">
+          <i class="big bordered inverted black github icon"></i>
+        </a>
+        <a class = "media" href="https://open.spotify.com/user/125853585?si=zbTMXa-LTU-pE6VYLMyCXg">
+            <i class="big bordered inverted black spotify icon"></i>
+        </a>
+      </div>
+      <div class="footnote">
+        Vanessa Jiménez <span class="copyright">©2018</span>
+      </div>
+    </footer>
+
     <div id="app"></div>
   </body>
 </html>
+
+
 
