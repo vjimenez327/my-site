@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta http-equiv="refresh" content="20" >
+    <meta http-equiv="refresh" content="5" >
     <meta name='viewport' content='width=device-width initial-scale=1.0'>
     <title>Vanessa Jimenez</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -36,6 +36,9 @@
 
       <div>
         <ul class="nav">
+          <li class="nav-name"> 
+              <a class="nav-link name" href="#home">Vanessa Jiménez</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link item" href="#home">Home</a>
           </li>
@@ -124,15 +127,16 @@
       </div>
 
       <div class="ui form">
-        <form action="mailto:vjimenez127@gmail.com" method="post" enctype="text/plain">
-          <input type="text" class="form-Name" placeholder="Name" required>
-          <input type="text" class="form-Email" placeholder="Enter Email" required> 
-          <textarea type="text" class="form-Message" placeholder="Your Message" required></textarea>
-        </form>
+        <form action="https://formspree.io/vjimenez127@gmail.com" method="POST" enctype="text/plain">
+          <input type="text" class="form-Name" placeholder="Name" name="name">
+          <input type="email" class="form-Email" name="_replyto" placeholder="Enter Email" required> 
+          <textarea type="text" class="form-Message" placeholder="Your Message" name="message"></textarea>
         <input type="submit" class="submit" value="Send Message">
+      </form>
       </div>
     </section>
 
+<!--footer info-->
     <footer>
       <div class="icon-wrap">
         <a class = "media" href="https://www.linkedin.com/in/vanessajimenez27/">

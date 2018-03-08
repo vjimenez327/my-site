@@ -12,8 +12,8 @@ canvas {
 }
 
 .text {
-  font-size: 30px;
-  color:#566573;
+  font-size: 50px;
+  color:#e7f2fa;
   font-family: 'Raleway', sans-serif;
   padding: 10px;
 }
@@ -23,17 +23,25 @@ span {
 }
 
 .nav {
-  bottom: 0;
+  display: flex;
   left: 0;
   position: absolute;
-  justify-content: center;
-  height: 50px;
+  /* justify-content: center; */
+  height: 55px;
   width: 100%;
   background: #404949;
   border-bottom: 3px solid #04C2C9;
   z-index: 99;
   transition : all .5s ease-out;
   transform:translateY(-1em);
+}
+
+.nav-name {
+  color:  #04C2C9;
+}
+
+.nav-item {
+  align-items: flex-end;
 }
 
 .active {
@@ -68,6 +76,7 @@ span {
 
 .blurp {
   padding-bottom: 20px;
+  line-height: 2;
 }
 
 #about {
@@ -84,13 +93,11 @@ span {
 
 #wrapper {
   position: absolute;
-  left: 0;
-  width: 420px;
+  line-height: 1.6;
+  width: 100%;
   text-align: center;
-  top: 50%;
-  left: 50%;
-  margin-left: -200px;
-  margin-top: -160px;
+  top: 40%;
+  left: 0;
 }
 
 .projects {
@@ -121,7 +128,6 @@ span {
 
 .card {
   background: white;
-  /* text-decoration: none; */
   color: rgb(26, 199, 193);
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: flex;
@@ -130,17 +136,18 @@ span {
   position: relative;
   top: 0;
   transition: all .1s ease-in;
-  border-color: #62D9DD;
+  border:none;
 }
 
 .info {
   position: absolute; 
   transition: .5s ease;
   opacity:0;
-  color: purple;
+  color: rgb(42, 197, 202);
   font-size: 30px;
   padding: 20px;
   text-align: center;
+  line-height: 2;
 }
 
 .card .thumb {
