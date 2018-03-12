@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -22,30 +21,51 @@ span {
   color: rgb(62, 211, 216);
 }
 
+#wrapper {
+  position: absolute;
+  line-height: 1.6;
+  width: 100%;
+  text-align: center;
+  top: 35%;
+  left: 0;
+}
+
 .nav {
   display: flex;
   left: 0;
   position: absolute;
-  /* justify-content: center; */
+  justify-content: center;
   height: 55px;
   width: 100%;
-  background: #404949;
-  border-bottom: 3px solid #04C2C9;
+  background: #04C2C9;
+  border-bottom: 4px solid #404949;
   z-index: 99;
   transition : all .5s ease-out;
-  transform:translateY(-1em);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+#navbar {
+  margin-top: -5px;
+}
+/* 
+.fixed .nav { 
+  position: fixed;
+  z-index: 99;
+} */
 
 .nav-name {
-  color:  #04C2C9;
+  margin-right: auto;
+  font-size: 30px;
 }
 
-.nav-item {
-  align-items: flex-end;
+.name {
+  color:  #404949;
 }
 
-.active {
-  color:  #04C2C9;
+.item {
+  margin: 9px 0 0 0;
+  font-size: 15px;
+  color: #ffffff;
 }
 
 .header {
@@ -63,10 +83,6 @@ span {
   background: #444649;
 }
 
-.item {
-  margin: 10px 0 0 0;
-  color: #ffffff;
-}
 
 .paragraph {
   text-align: center;
@@ -81,6 +97,7 @@ span {
 
 #about {
   background-color: whitesmoke; 
+  padding-top: 75px;
 }
 
 .circle {
@@ -89,15 +106,6 @@ span {
   width: 200px;
   height: auto;
   border-radius: 50%;
-}
-
-#wrapper {
-  position: absolute;
-  line-height: 1.6;
-  width: 100%;
-  text-align: center;
-  top: 40%;
-  left: 0;
 }
 
 .projects {
@@ -143,10 +151,9 @@ span {
   position: absolute; 
   transition: .5s ease;
   opacity:0;
-  color: rgb(42, 197, 202);
+  color: #000000;
   font-size: 30px;
   padding: 20px;
-  text-align: center;
   line-height: 2;
 }
 
@@ -155,6 +162,11 @@ span {
   background-size: contain;
   background-position: center center;
   background-repeat:no-repeat;
+}
+
+.tech {
+  color:#04C2C9;
+  font-size: 20px;
 }
 
 .tile:hover .thumb{
@@ -168,12 +180,7 @@ span {
   transition: 1s ease;
 } 
 
-.after {
-  background-color: #62D9DD;
-  color: #000000;
-  font-size: 18px;
-  padding: 16px 32px;
-}
+
 #contact {
   background-color: whitesmoke; 
 }
