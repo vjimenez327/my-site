@@ -47,11 +47,6 @@ span {
 #navbar {
   margin-top: -5px;
 }
-/*
-.fixed .nav {
-  position: fixed;
-  z-index: 99;
-} */
 
 .nav-name {
   margin-right: auto;
@@ -83,7 +78,6 @@ span {
   background: #444649;
 }
 
-
 .paragraph {
   text-align: center;
   margin: 40px 250px 10px 250px;
@@ -106,6 +100,16 @@ span {
   width: 200px;
   height: auto;
   border-radius: 50%;
+}
+
+.facts{
+  list-style-type: none;
+  text-align: center;
+  padding: 20px 10px 10px 10px; 
+}
+
+.fact {
+  padding: 10px 0px 10px 0px;
 }
 
 .projects {
