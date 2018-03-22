@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.js"></script>
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/components/accordion.js"></script>
     <!-- LOCAL -->
     <link rel="stylesheet" href="./style.css" />
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
@@ -34,6 +35,9 @@
         </div>
         <div class="text">
           I'm a full-stack web developer.
+        </div>
+        <div class="ui inverted">
+          <button class="ui inverted button">Contact Me!</button>
         </div>
       </div>
       <div id="navbar">
@@ -69,7 +73,7 @@
 
       <div class = "paragraph">
         <div class = "blurp">
-          After an intensive 3 month journey of building full stack Javascript applications, I am comfortable throughout the stack and love being able to implement new features. I love learning foreign languages and the opportunity to build new friendships with the ability to speak a new language. Software Development does exactly that for me. It's the opportunity to code in a language and build new things either on my own or with a team. I constantly want to learn more and further grow as a developer. It's a different world with its own language that I love to bond over with people.
+        Software engineering is my daily challenge to be comfortable in uncomfortable situations and I love it! I realized in college my love for learning foreign languages is very similar to learning new coding languages. Programming is a different world with its own language that I love to bond over with people. Oddly enough, I also love building Ikea furniture and realize that the same happiness I feel when building new things translates to my projects. It's amazing to start from nothing and have something!
         </div>
 
         <div class = "blurp">
@@ -88,15 +92,15 @@
 
       <div class="random">
         <ul class="facts">
-          <li class="fact"> Creating new playlists or finding new music.</li>
-          <li class="fact"> Building Ikea furniture.</li>
-          <li class="fact"> Cooking & Eating </li>
-          <li class="fact"> Funny and witty podcasts where I can learn a thing or two.
+          <li class="fact"> <i class="music icon"></i> Creating new playlists or finding new music.</li>
+          <li class="fact"> <i class="wrench icon"></i>Building Ikea furniture.</li>
+          <li class="fact"> <i class="utensils icon"></i> Cooking & Eating </li>
+          <li class="fact"> <i class="podcast icon"></i> Funny and witty podcasts where I can learn a thing or two.
           </li>
-          <li class="fact">Reading the Skimm!</li>
-          <li class="fact">Traveling the world.</li>
-          <li class="fact">Coding.</li>
-          <li class="fact">Ramen & Tacos</li>
+          <li class="fact"> <i class="coffee icon"></i> Reading the Skimm!</li>
+          <li class="fact"> <i class="globe icon"></i> Traveling the world.</li>
+          <li class="fact"> <i class="code icon"></i> Coding.</li>
+          <li class="fact"> <i class="heart icon"></i>Ramen & Tacos</li>
 
         </ul>
       </div>
@@ -106,84 +110,63 @@
         <div class ="header">SKILLS</div>
         <div class="header-bar"></div>
 
-
-              <th scope="col">Frontend</th>
-              <th scope="col">Backend</th>
-              <th scope="col">Other</th>
-
-              <th scope="row">Javascript(ES6)</th>
-              <td>Node.js</td>
-              <td>Git</td>
-
-              <th scope="row">React</th>
-              <td>Express</td>
-              <td>Webpack</td>
-
-              <th scope="row">Redux</th>
-              <td>SQL/PostgreSQL</td>
-              <td>JSON</td>
-
-              <th scope="row">HTML5</th>
-              <td>Sequelize</td>
-              <td>Mocha/Chai & Jasmine Testing</td>
-
-
-              <th scope="row">CSS3/Sass</th>
-              <td>AWS S3</td>
-              <td>Agile Development</td>
-
-              <th scope="row">jQuery</th>
-
-              <th scope="row">AJAX</th>
-
-              <th scope="row">Material-UI</th>
-
-              <th scope="row">Semantic UI</th>
-
-        <div class="ui dropdown">
-          <div class="text">File</div>
-          <i class="dropdown icon"></i>
-          <div class="menu">
-            <div class="item">New</div>
-            <div class="item">
-              <span class="description">ctrl + o</span>
-              Open...
-            </div>
-            <div class="item">
-              <span class="description">ctrl + s</span>
-              Save as...
-            </div>
-            <div class="item">
-              <span class="description">ctrl + r</span>
-              Rename
-            </div>
-            <div class="item">Make a copy</div>
-            <div class="item">
-              <i class="folder icon"></i>
-              Move to folder
-            </div>
-            <div class="item">
-              <i class="trash icon"></i>
-              Move to trash
-            </div>
-            <div class="divider"></div>
-            <div class="item">Download As...</div>
-            <div class="item">
-              <i class="dropdown icon"></i>
-              Publish To Web
-              <div class="menu">
-                <div class="item">Google Docs</div>
-                <div class="item">Google Drive</div>
-                <div class="item">Dropbox</div>
-                <div class="item">Adobe Creative Cloud</div>
-                <div class="item">Private FTP</div>
-                <div class="item">Another Service...</div>
+        <div class="ui container">
+          <div class="ui accordion">
+            <div class="skill">
+              <div class="title active">
+                <i class="dropdown icon"></i>
+                Frontend
+              </div>
+              <div class="content active">
+                <ul>
+                  <li>Javascript(ES6)</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>HTML5</li>
+                  <li>CSS3/Sass</li>
+                  <li>jQuery</li>
+                  <li>AJAX</li>
+                  <li>Material-UI</li>
+                  <li>Semantic UI</li>
+                </ul>
               </div>
             </div>
-            <div class="item">E-mail Collaborators</div>
+            <div class="skill">
+              <div class="title active">
+                <i class="dropdown icon"></i>
+                  Backend
+              </div>
+              <div class="content active">
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>SQL/PostgreSQL</li>
+                  <li>MySQL</li>
+                  <li>Sequelize</li>
+                  <li>AWS S3</li>
+                </ul>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="title active">
+                <i class="dropdown icon"></i>
+                Other
+              </div>
+              <div class="content active">
+                <ul>
+                  <li>Git</li>
+                  <li>Webpack</li>
+                  <li>JSON</li>
+                  <li>Mocha/Chai & Jasmine Testing</li>
+                  <li>Agile Development</li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
-    </section>
+      </section>
+
     <!-- List of Projects -->
     <section id="portfolio">
       <div class ="header">PORTFOLIO</div>
@@ -196,6 +179,7 @@
               <article class="info">
                 <h1>Breadcrumbs</h1>
                 <div class="tech">Expo-Three.js + React Native</div>
+                <p>An AR React Native app allowing users to record a trail and rerender the trail using 3D objects.</p>
               </article>
             </a>
           </div>
@@ -206,6 +190,7 @@
               <article class="info">
                 <h1>Better With Age</h1>
                 <div class="tech">React + React-Redux</div>
+                <p>An e-commerce site built in a week to provide our future clientele with access to purchase some of our favorite cheeses. </p>
               </article>
             </a>
           </div>
@@ -216,6 +201,7 @@
               <article class ="info">
                 <h1>Lemon</h1>
                 <div class="tech">Chrome Extension API + Pure Javascript</div>
+                <p>A chrome extension that allows users to have a centralized shopping cart.</p>
               </article>
             </a>
           </div>
