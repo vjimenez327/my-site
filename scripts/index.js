@@ -1,6 +1,6 @@
 
 var header = $("#navbar");
-  $(window).scroll(function() {    
+  $(window).scroll(function() {
 
     var scroll = $(window).scrollTop();
        if (scroll >= window.innerHeight) {
@@ -9,3 +9,9 @@ var header = $("#navbar");
           header.removeClass("fixed");
         }
 });
+
+$(document).ready(function(){
+  $('.ui.accordion').accordion();
+});
+
+// $('.ui.accordion').accordion('open');

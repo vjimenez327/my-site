@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.js"></script>
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/components/accordion.js"></script>
     <!-- LOCAL -->
     <link rel="stylesheet" href="./style.css" />
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
@@ -35,6 +36,9 @@
         <div class="text">
           I'm a full-stack web developer.
         </div>
+        <div class="ui inverted">
+          <button class="ui inverted button"><a href="#contact">Contact Me!</a></button>
+        </div>
       </div>
       <div id="navbar">
           <ul class="nav">
@@ -51,7 +55,7 @@
               <a class="nav-link item" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link item" href="#portfolio">Rèsumè</a>
+                <a class="nav-link item" href="./img/JiménezResume2018.pdf">Rèsumè</a>
               </li>
             <li class="nav-item">
               <a class="nav-link item" href="#contact">Contact</a>
@@ -69,17 +73,99 @@
 
       <div class = "paragraph">
         <div class = "blurp">
-          After an intensive 3 month journey of learning to build Javascript applications, I am comfortable throughout the stack and love being able to implement new features. I love learning foreign languages and the opportunity to build new friendships with the ability to speak a new language. Software Development does exactly that for me. It's the opportunity to code in a language and build new things either on my own or with a team. I constantly want to learn more and further grow as a developer. It's a different world with its own language that I love to bond over with people. 
+        Software engineering is my daily challenge to be comfortable in uncomfortable situations and I love it! I realized in college my love for learning foreign languages is very similar to learning new coding languages. Programming is a different world with its own language that I love to bond over with people. Oddly enough, I also love building Ikea furniture and realize that the same happiness I feel when building new things translates to my projects. It's amazing to start from nothing and have something!
         </div>
-      
+
         <div class = "blurp">
-          Outside of code, since I'm new to NYC I like to go out and explore around the city. Whether, it's finding a new restuarant, stumbling across live street music, going to an unexpected event, or just wandering through parks. I love to find new music and create playlists for different moods. 
+          Outside of code, since I'm new to NYC I like to go out and explore around the city. Whether, it's finding a new restuarant, stumbling across live street music, going to an unexpected event, or just wandering through parks.
         </div>
         <div class = "blurp">
-         I am actively seeking a new full-time opportunity as I continue upon the next journey in my life. Before becoming a software developer, I worked for Deloitte as a Tech Risk Consultant serving the global software vendors. I also hold a degree in finance from Santa Clara University with a minor in Operations Management & Information Systems.          
+         I am actively seeking a new full-time opportunity as a software engineer as I continue upon the next journey in my life. Before becoming a software engineer, I worked for Deloitte as a Tech Risk Consultant serving the global software vendors. I also hold a B.S. in Finance from Santa Clara University with a minor in Operations Management & Information Systems.
         </div>
       </div>
     </section>
+
+    <!--Things that make me happy-->
+    <section id="happiness">
+      <div class ="header">MY HAPPINESS</div>
+      <div class="header-bar"></div>
+
+      <div class="random">
+        <ul class="facts">
+          <li class="fact"> <i class="music icon"></i> Creating new playlists or finding new music.</li>
+          <li class="fact"> <i class="wrench icon"></i>Building Ikea furniture.</li>
+          <li class="fact"> <i class="utensils icon"></i> Cooking & Eating </li>
+          <li class="fact"> <i class="podcast icon"></i> Funny and witty podcasts where I can learn a thing or two.
+          </li>
+          <li class="fact"> <i class="coffee icon"></i> Reading the Skimm!</li>
+          <li class="fact"> <i class="globe icon"></i> Traveling the world.</li>
+          <li class="fact"> <i class="code icon"></i> Coding.</li>
+          <li class="fact"> <i class="heart icon"></i>Ramen & Tacos</li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+        <div class ="header">SKILLS</div>
+        <div class="header-bar"></div>
+
+        <div class="ui container">
+          <div class="ui accordion">
+            <div class="skill">
+              <div class="title active">
+                <i class="dropdown icon"></i>
+                Frontend
+              </div>
+              <div class="content active">
+                <ul>
+                  <li>Javascript(ES6)</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>HTML5</li>
+                  <li>CSS3/Sass</li>
+                  <li>jQuery</li>
+                  <li>AJAX</li>
+                  <li>Material-UI</li>
+                  <li>Semantic UI</li>
+                </ul>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="title active">
+                <i class="dropdown icon"></i>
+                  Backend
+              </div>
+              <div class="content active">
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>SQL/PostgreSQL</li>
+                  <li>MySQL</li>
+                  <li>Sequelize</li>
+                  <li>AWS S3</li>
+                </ul>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="title active">
+                <i class="dropdown icon"></i>
+                Other
+              </div>
+              <div class="content active">
+                <ul>
+                  <li>Git</li>
+                  <li>Webpack</li>
+                  <li>JSON</li>
+                  <li>Mocha/Chai & Jasmine Testing</li>
+                  <li>Agile Development</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
     <!-- List of Projects -->
     <section id="portfolio">
@@ -93,18 +179,20 @@
               <article class="info">
                 <h1>Breadcrumbs</h1>
                 <div class="tech">Expo-Three.js + React Native</div>
+                <p>An AR React Native app allowing users to record a trail and rerender the trail using 3D objects.</p>
               </article>
             </a>
           </div>
-        
+
           <div class="tile">
             <a href="http://better-with-age.herokuapp.com/" class="card">
               <div class="thumb" style="background-image: url(img/bwa.png);"></div>
               <article class="info">
                 <h1>Better With Age</h1>
                 <div class="tech">React + React-Redux</div>
+                <p>An e-commerce site built in a week to provide our future clientele with access to purchase some of our favorite cheeses. </p>
               </article>
-            </a>  
+            </a>
           </div>
 
           <div class="tile">
@@ -113,6 +201,7 @@
               <article class ="info">
                 <h1>Lemon</h1>
                 <div class="tech">Chrome Extension API + Pure Javascript</div>
+                <p>A chrome extension that allows users to have a centralized shopping cart.</p>
               </article>
             </a>
           </div>
@@ -131,7 +220,7 @@
       <div class="ui form">
         <form action="https://formspree.io/vjimenez127@gmail.com" method="POST" enctype="text/plain">
           <input type="text" class="form-Name" placeholder="Name" name="name">
-          <input type="email" class="form-Email" name="_replyto" placeholder="Enter Email" required> 
+          <input type="email" class="form-Email" name="_replyto" placeholder="Enter Email" required>
           <textarea type="text" class="form-Message" placeholder="Your Message" name="message"></textarea>
         <input type="submit" class="submit" value="Send Message">
       </form>
@@ -149,6 +238,9 @@
         </a>
         <a class = "media" href="https://open.spotify.com/user/125853585?si=zbTMXa-LTU-pE6VYLMyCXg">
             <i class="big bordered inverted black spotify icon"></i>
+        </a>
+        <a class = "media" href="http://www.theskimm.com/?r=c285ed51">
+          <img class= "skimm" src = "./img/Skimm.png">
         </a>
       </div>
       <div class="footnote">
